@@ -28,8 +28,14 @@ matriz = multiplicacion_Matriz(a, b)
 if matriz == None:
     print("No se puede multiplicar matriz")
 else:
+    print("La matriz a: ", a)
+    print("La matriz b: ", b)
     for fila in matriz:
         print("[", end=" ") 
         for element in fila:
             print(element, end=" ")
         print("]")
+
+
+
+# El algoritmo es de orden: O(n^3)
